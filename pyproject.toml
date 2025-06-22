@@ -1,0 +1,10 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+exclude = ["migrations", "venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "DJ", "UP"]
+
+[tool.ruff.format]
+quote-style = "double"

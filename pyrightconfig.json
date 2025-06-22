@@ -1,0 +1,8 @@
+{
+  "include": ["api", "config"],
+  "exclude": ["migrations", "venv"],
+  "typeCheckingMode": "strict",
+  "pythonVersion": "3.11",
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false
+}
